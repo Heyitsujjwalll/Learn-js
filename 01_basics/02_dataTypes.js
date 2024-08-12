@@ -8,7 +8,7 @@
 console.log("ujjwal");
 let name="ujjwal"
 let age =12
-let isLoggedin=True
+//let isLoggedin=True
 
 // DATA TYPES
 /*
