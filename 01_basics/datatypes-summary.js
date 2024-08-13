@@ -34,3 +34,30 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+
+// ++++++++++++++++++++++++
+// THERE ARE TWO TYPES OF MEMORY :-
+// STACK (premitive ) , HEAP(Non premitive)
+
+let myYoutubename = "ujjwal@googledotcom"
+
+let anotherName = myYoutubename
+console.log(anotherName);
+
+anotherName ="chaiorhack"
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "hymus@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
